@@ -10,7 +10,7 @@ This project demonstrates my SQL problem-solving skills by analyzing an employee
 ## Project structure 
 - **Database Setup**: Creation of the `my_project` database.
 - **Importing data**: Importing sample csv file into tables.
-- - **Business Problems**: Solving 12 specific business problems using SQL queries.
+- **Business Problems**: Solving 12 specific business problems using SQL queries.
  
 ## Database Setup
 ```sql
