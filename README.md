@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/baff6728-66b5-4bf8-b4fe-73a74e9ee902)
 
 
-## overview
+## Overview
 This project demonstrates my SQL problem-solving skills by analyzing an employee income dataset. It involves data import and solving various business problems using SQL queries.
 
 
@@ -57,7 +57,7 @@ WHERE No of dependents >2
 AND Houseownership_Status = 'OWN'
 GROUP BY Occupation;
 ```
-#OUTPUT/RESULT:
+####OUTPUT/RESULT:
 
 <img width="227" alt="image" src="https://github.com/user-attachments/assets/f5c8781c-8b76-4b37-a18b-80d540e0edaa" />
 
@@ -75,7 +75,7 @@ AND Income > (
 Order by Income Desc
 ```
 
-#OUTPUT:
+####OUTPUT:
 
 <img width="178" alt="image" src="https://github.com/user-attachments/assets/43de86da-0612-44d9-86e5-f5be2edc3d8e" />\
 
@@ -103,7 +103,7 @@ FROM project
 GROUP BY Location, Occupation;
 ```
 
-#OUTPUT:
+####OUTPUT:
 
 <img width="277" alt="image" src="https://github.com/user-attachments/assets/00edb6e6-bdb7-4923-87c3-75019ee71828" />
 
@@ -114,7 +114,7 @@ SELECT Type_of_Housing, AVG(Household_Size) AS Average_Household_Size
 FROM project
 GROUP BY Type_of_Housing;
 ```
-#OUTPUT:
+####OUTPUT:
 
 <img width="228" alt="image" src="https://github.com/user-attachments/assets/84482c2c-feaf-41c4-b575-396f17b8d72f" />
 
@@ -128,7 +128,7 @@ SELECT Marital_Status,
 FROM project
 GROUP BY Marital_Status;
 ```
-#OUTPUT:
+####OUTPUT:
 
 <img width="453" alt="image" src="https://github.com/user-attachments/assets/539edd07-edcb-493a-ae29-c83192dd036d" />
 
@@ -143,7 +143,7 @@ AS Income_Rank
 FROM project;
 ```
 
-#OUTPUT:
+####OUTPUT:
 
 <img width="229" alt="image" src="https://github.com/user-attachments/assets/0a0e2f40-e9fc-4f52-8a92-8c3f2b982342" />, <img width="229" alt="image" src="https://github.com/user-attachments/assets/50043412-8200-4e30-bf29-e2151e8b0ae1" />, <img width="229" alt="image" src="https://github.com/user-attachments/assets/e11608aa-239f-45ca-8cc3-c7c0d326a8e8" />
 
@@ -157,7 +157,7 @@ ORDER BY Average_Income DESC
 LIMIT 3;
 ```
 
-#OUTPUT:
+####OUTPUT:
 
 <img width="194" alt="image" src="https://github.com/user-attachments/assets/0e29a45e-7d6a-48fa-9016-b5377fb7915c" />
 
@@ -187,7 +187,7 @@ FROM income_data, Median_CTE
 WHERE income_data.Income > Median_CTE.Median_Income;
 ```
 
-#OUTPUT:
+####OUTPUT:
 
 <img width="859" alt="image" src="https://github.com/user-attachments/assets/5ca39374-ce88-48f1-88da-94aff80f27a8" />
 
