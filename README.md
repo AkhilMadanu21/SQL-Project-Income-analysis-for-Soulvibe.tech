@@ -1,4 +1,4 @@
-# SQL-Project-Demographic and income analysis of Employees using SQL-for-Soulvibe.tech
+# SQL-Project-Demographic and income analysis of Employees-for-Soulvibe.tech
 
 ![image](https://github.com/user-attachments/assets/baff6728-66b5-4bf8-b4fe-73a74e9ee902)
 
