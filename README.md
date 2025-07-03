@@ -57,7 +57,7 @@ WHERE No of dependents >2
 AND Houseownership_Status = 'OWN'
 GROUP BY Occupation;
 ```
-##OUTPUT/RESULT:
+## OUTPUT/RESULT:
 
 <img width="227" alt="image" src="https://github.com/user-attachments/assets/f5c8781c-8b76-4b37-a18b-80d540e0edaa" />
 
